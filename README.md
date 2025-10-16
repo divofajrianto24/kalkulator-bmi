@@ -32,7 +32,7 @@ kalkulator-bmi/
 
 1. Clone repo ini:
    ```bash
-   git clone https://github.com/<username>/kalkulator-bmi.git
+   git clone https://github.com/divofajrianto24/kalkulator-bmi.git
    cd kalkulator-bmi
    ```
 2. Buka `index.html` langsung di browser (double click).
@@ -47,7 +47,7 @@ Tidak perlu server atau dependency tambahan.
 2. Buka **Settings → Pages**.
 3. **Source:** pilih `Deploy from a branch` → `main` → `/ (root)`.
 4. Simpan. Link akan muncul seperti:  
-   `https://<username>.github.io/kalkulator-bmi/`
+   `https://divofajrianto24.github.io/kalkulator-bmi/`
 
 Tambahkan URL tersebut di bagian **About** repo agar mudah diakses.
 
@@ -70,16 +70,12 @@ Tambahkan URL tersebut di bagian **About** repo agar mudah diakses.
 
 ## 🧮 Rumus yang Dipakai
 
-- **BMI**  
-  \[
-  \text{BMI} = \frac{\text{berat (kg)}}{(\text{tinggi (m)})^2}
-  \]
+- **BMI:**
+  BMI = berat (kg) / (tinggi (m))²
 
-- **Estimasi % Lemak Tubuh (Deurenberg, dewasa)**  
-  \[
-  \% \text{Lemak} = 1.20 \times \text{BMI} + 0.23 \times \text{umur} - 10.8 \times \text{sexMale} - 5.4
-  \]  
-  `sexMale = 1` untuk laki-laki, `0` untuk perempuan.
+- **Estimasi % Lemak Tubuh (Deurenberg, dewasa):**
+  %Lemak = 1.20 × BMI + 0.23 × Umur − 10.8 × SexMale − 5.4  
+  Keterangan: `SexMale = 1` untuk laki-laki, `0` untuk perempuan.
 
 ### Ambang Kategori BMI (Dewasa)
 
@@ -115,16 +111,6 @@ Tambahkan URL tersebut di bagian **About** repo agar mudah diakses.
 - HTML5
 - CSS3
 - JavaScript (DOM API)
-
----
-
-## 🗺️ Roadmap (Opsional)
-
-- [ ] Mode **remaja** dengan **kurva WHO BMI-for-age** (percentile)
-- [ ] Switch satuan **kg/cm ↔ lb/in**
-- [ ] **Waist-to-Height Ratio** & rekomendasi tambahan
-- [ ] **LocalStorage** untuk menyimpan input terakhir
-- [ ] Tema gelap (dark mode)
 
 ---
 
