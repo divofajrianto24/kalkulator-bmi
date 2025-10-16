@@ -11,7 +11,6 @@ Aplikasi web sederhana untuk menghitung **BMI** dan menampilkan **kategori** (de
   > Catatan: kategori dewasa berlaku untuk **usia ≥ 20 tahun**
 - Estimasi **% lemak tubuh** (rumus Deurenberg) berdasarkan **BMI + umur + jenis kelamin**
 - Validasi input dasar + tombol **Reset**
-- Opsional: **paksa tampilkan kategori dewasa** untuk usia < 20 th (checkbox)
 - Desain sederhana dan responsif
 
 ---
